@@ -14,7 +14,7 @@ public class DataBase {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		url = "jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC";
 		user = "root";
-		password = "LAM0613lam";//此处换成自己的密码
+		password = "........";
 		sql = "insert into message values(?,?,?,?,?)";
 	}
 	
